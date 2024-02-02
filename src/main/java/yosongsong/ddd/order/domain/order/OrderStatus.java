@@ -1,5 +1,5 @@
-package yosongsong.ddd.order.domain;
+package yosongsong.ddd.order.domain.order;
 
-public enum OrderState {
+public enum OrderStatus {
 	PAYMENT_WAITING, PREPARING, SHIPPED, DELIVERING, DELIVERY_COMPLETED;
 }
